@@ -1,0 +1,48 @@
+@import url(./sanitize.css);
+
+
+body{
+    background-image: url(../images/background_green.jpg);
+    margin-left:15px;
+}
+
+h3{
+    font-size:23px;
+    margin-bottom: -1px;
+}
+
+li.dev{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+p{
+    margin-top: -0.2px;
+}
+
+p.sen1{
+    font-size: 25px;
+    border: 3px solid green;
+    display:inline-block    
+}
+
+h3.syousai{
+    margin-top:50px;
+}
+
+p.incident{
+margin-top: 15px;
+font-size: 18px;
+}
+
+p.GitHub{
+    margin-top: 15px;
+    font-size: 18px;
+    }
+
+
+a{
+    display:block; /*インライン要素をブロック化*/
+    font-size: 25px;
+    margin-top: 15px;/*ブロック化により、使用可*/
+}
